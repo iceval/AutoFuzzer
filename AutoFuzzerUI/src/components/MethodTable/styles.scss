@@ -1,0 +1,44 @@
+@import '../../styles/variables.scss';
+
+.method-table {
+  display: flex;
+  flex-direction: column;
+  background-color: #d9d9d9;
+  border: solid 1px;
+
+  &__header {
+  }
+
+  &__title {
+    display: flex;
+    justify-content: center;
+  }
+
+  &__method {
+    display: flex;
+    flex-direction: row;
+    border: solid 1px;
+  }
+
+  &__checkbox {
+    display: flex;
+    justify-content: center;
+    width: 50px;
+    min-width: 50px;
+  }
+
+  &__checkbox-body {
+  }
+
+  &__method-name {
+    flex: 9;
+    padding: 5px;
+    border-left: solid 1px;
+  }
+
+  &__method-list {
+    display: flex;
+    flex-direction: column;
+    overflow-y: scroll;
+  }
+}

@@ -1,0 +1,43 @@
+// Reset
+@import 'styles/reset.scss';
+
+@import 'styles/fonts.scss';
+@import 'styles/variables.scss';
+
+html,
+body {
+  width: 100%;
+  min-width: 100%;
+  height: 100%;
+  min-height: 100%;
+}
+
+body {
+  font-weight: 400;
+  font-family: $font-family;
+  background-color: #e2e9dc;
+}
+
+#root {
+  height: 100%;
+}
+
+// Wrapper
+.wrapper {
+  width: 100%;
+  min-width: 100%;
+  height: 100%;
+  min-height: 100%;
+
+  // Site loaded
+  .loaded & {
+  }
+}
+
+// Container
+.container {
+}
+
+// Main block
+.page {
+}

@@ -1,0 +1,15 @@
+@import '../../styles/variables.scss';
+
+.log-list {
+  padding: 5px;
+  overflow-y: scroll;
+  border: 0;
+  outline-style: none;
+  outline-color: transparent;
+
+  &__log-name {
+    width: 100%;
+    padding: 5px;
+    border-bottom: 3px solid #d9d9d9;
+  }
+}

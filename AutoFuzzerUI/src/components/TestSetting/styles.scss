@@ -1,0 +1,31 @@
+@import '../../styles/variables.scss';
+
+.test-setting {
+  height: 100%;
+
+  &__body {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    padding: 10px;
+  }
+
+  &__upload-path {
+    flex: 1;
+  }
+
+  &__method-table {
+    flex: 4;
+    min-height: 0;
+  }
+
+  &__button {
+    flex: 1;
+    align-self: center;
+    width: 70px;
+    margin: 5px;
+    padding: 10px;
+    background-color: #d9d9d9;
+    border: solid 1px;
+  }
+}

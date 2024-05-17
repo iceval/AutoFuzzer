@@ -1,0 +1,59 @@
+@import '../../styles/variables.scss';
+
+.container-table {
+  display: flex;
+  flex-direction: column;
+  background-color: #d9d9d9;
+  border: solid 1px;
+
+  &__header {
+  }
+
+  &__title {
+  }
+
+  &__container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border: solid 1px;
+  }
+
+  &__status {
+    display: flex;
+    justify-content: center;
+    width: 100px;
+  }
+
+  &__button {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    min-width: 50px;
+  }
+
+  &__container-name {
+    flex: 10;
+    padding: 5px;
+    border-right: solid 1px;
+    border-left: solid 1px;
+  }
+
+  &__delete-title {
+    display: flex;
+    justify-content: center;
+    width: 116.5px;
+  }
+
+  &__delete {
+    display: flex;
+    justify-content: center;
+    width: 100px;
+  }
+
+  &__container-list {
+    display: flex;
+    flex-direction: column;
+    overflow-y: scroll;
+  }
+}

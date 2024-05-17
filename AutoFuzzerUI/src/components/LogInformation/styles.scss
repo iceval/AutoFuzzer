@@ -1,0 +1,19 @@
+@import '../../styles/variables.scss';
+
+.log-information {
+  height: 100%;
+
+  &__body {
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+  }
+
+  &__list {
+    flex: 1;
+  }
+
+  &__view {
+    flex: 6;
+  }
+}

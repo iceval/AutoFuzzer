@@ -1,0 +1,33 @@
+@import '../../styles/variables.scss';
+
+.container-management {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+
+  &__body {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+  }
+
+  &__container-table {
+    flex: 8;
+    min-height: 0;
+  }
+
+  &__button {
+    flex: 1;
+    align-self: center;
+    width: 200px;
+    margin: 5px;
+    padding: 10px;
+    background-color: #d9d9d9;
+    border: solid 1px;
+  }
+
+  &__buttons {
+    display: flex;
+    align-self: center;
+  }
+}

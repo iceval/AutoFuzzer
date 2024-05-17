@@ -1,0 +1,36 @@
+.main-page {
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  height: 100%;
+  padding: 20px;
+
+  &__content-top {
+    display: flex;
+    flex: 2;
+    flex-direction: row;
+    min-height: 0;
+  }
+
+  &__test-setting {
+    flex: 1;
+    box-sizing: border-box;
+    padding: 0 10px 10px 0;
+  }
+
+  &__container-management {
+    flex: 1;
+    box-sizing: border-box;
+    padding: 0 0 10px 10px;
+  }
+
+  &__content-bottom {
+    flex: 1;
+    min-height: 0;
+  }
+
+  &__log-information {
+    box-sizing: border-box;
+    padding: 10px 0 0;
+  }
+}

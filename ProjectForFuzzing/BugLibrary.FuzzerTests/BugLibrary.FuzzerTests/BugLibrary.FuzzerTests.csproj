@@ -1,0 +1,24 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <!--Important-->
+  <ItemGroup>
+    <Reference Include="BugLibrary">
+      <HintPath>..\..\BugLibrary\BugLibrary\bin\Debug\net6.0\BugLibrary.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="TestCases\**" CopyToOutputDirectory="PreserveNewest" />
+    <None Include="Dictionaries\**" CopyToOutputDirectory="PreserveNewest" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Dictionaries\Tests_Cycle\" />
+  </ItemGroup>
+  <!--Important-->
+
+</Project>
